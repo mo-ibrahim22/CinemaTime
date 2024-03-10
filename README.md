@@ -25,4 +25,5 @@ Customizable Backgrounds: Administrators have the ability to customize web page 
 ![Screenshot 2024-03-10 030731](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/abea5884-2dd6-4d83-b52b-4fe335a516a1)
 ![Screenshot 2024-03-10 031423](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/0dd79f53-7290-49b8-ac53-06e1791fcb73)
 ![Screenshot 2024-03-10 031609](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/34a3d28a-2b60-4a28-804e-6e9fde51cc34)
+![Screenshot 2024-03-10 030647](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/c10fdc84-677d-4ad4-94b8-f4c4cc3bb543)
 
