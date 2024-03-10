@@ -1,7 +1,6 @@
-localStorage.setItem('color', JSON.stringify("#9b59b6"));
 function x() {
     var color = document.getElementById("color").value;
-    var c = document.getElementsByClassName("bgGround");
+    var c = document.getElementsByTagName('body');
     localStorage.setItem('color', JSON.stringify(color))
     console.log(color);
     console.log(c);

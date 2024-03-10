@@ -1,4 +1,3 @@
-/*stylying bar section*/
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +5,20 @@
     font-family: cursive;
 
 }
+
+/* Style background-color */
+body {
+    background-image: url("doctorstrange.jpg");
+    /* Full height */
+    height: 100vh;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
 
 .bar {
     background-color: #2B4865;
@@ -76,98 +89,36 @@
     color: rgb(77, 76, 125);
     background-color: rgba(22, 26, 48, 1);
 }
-
-/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*styling background color  */
-
-body {
-
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
-
-}
-
-
-
-/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-/*styling box of rate*/
-
-.items {
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.about
+{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    align-content: space-evenly;
-    margin-top: 100px;
+    height: 100%;
     width: 100%;
+    overflow: hidden;
+    min-width: min-content;
+    min-height: min-content;
+    background-color: rgba(0, 0, 0, 0.7);
+
 
 }
-
-.item {
-    padding: 10px;
-    background-color: rgba(238, 237, 235, 0.8);
-    width: 14%;
+.header
+{   
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    width: 40%;
+    height: 30%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
     height: fit-content;
-    border-radius: 20px;
-    margin: 20px;
     min-width: min-content;
     min-height: min-content;
 }
-
-.photo {
-    width: 100%;
-    height: 240px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 1s;
-
-}
-
-.photo:active {
-    box-shadow: 0 0 10px 5px #9c81b1;
-    transform: scale(1.5, 1.5);
-}
-
-
-.Rating {
-    background: #f1f1f1;
-    text-align: left;
-    font-size: large;
-    font-family: cursive;
-    width: 100%;
-    font-weight: bold;
-}
-
-
-
-
-/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*--styling trailer boxes--*/
-
-.trailer {
-    font-size: 20px;
-    text-shadow: 1px 1px 1px #9c81b1;
-    background-color: white;
-    text-align: center;
-    color: #440f58;
-    width: 100%;
-    border-radius: 10px;
-}
-
-.trailer:hover {
-    background-color: #b891f2;
-}
-
-/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*when user click on the box it will shadow*/
-.trailer:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-        inset 2px 2px 3px rgba(0, 0, 0, .6);
-}
-
-
-
 
 
 
@@ -186,14 +137,13 @@ body {
         font-size: 15px;
         top: 15px;
     }
-
-    .items {
-        flex-direction: row;
+    .header
+    {
+        width: 80%;
+        padding: 10px;
+        font-size: 15px;
     }
 
-    .item {
-        width: 40%;
-    }
 }
 
 @media all and (min-width: 601px) and (max-width: 768px) {
@@ -207,14 +157,14 @@ body {
         font-size: 15px;
 
     }
-
-    .items {
-        flex-direction: row;
+    .header
+    {
+        width: 80%;
+        padding: 10px;
+        font-size: 15px;
     }
 
-    .item {
-        width: 30%;
-    }
+  
 }
 
 @media all and (min-width: 769px) and (max-width: 922px) {
@@ -227,12 +177,12 @@ body {
         font-size: 15px;
 
     }
-
-    .items {
-        flex-direction: row;
+    .header
+    {
+        width: 80%;
+        padding: 10px;
+        font-size: 15px;
     }
 
-    .item {
-        width: 20%;
-    }
+   
 }

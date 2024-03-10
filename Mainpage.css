@@ -1,52 +1,114 @@
-body,
-html {
-    height: 100%;
+* {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
 }
 
-body {
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*styling background color  */
+
+
+.background {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
     background-image: url("wp4027868-venom-4k-wallpapers.jpg");
-    background-size: cover;
-    height: 100%;
-    font-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    min-width: min-content;
+    min-height: min-content;
+
 }
 
 
 
 
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------styling of content-------------------*/
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    min-width: min-content;
+    min-height: min-content;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------*/
+/*styling of welcome box with page name*/
+
+
+
+.box {
+
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #f1f1f1;
+    width: 80%;
+    height: 60%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+    height: fit-content;
+    min-width: min-content;
+    min-height: min-content;
+    margin-bottom: 5%;
+
+}
 
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*styling buttons of register and login  */
 
+.buttonshome
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    min-width: min-content;
+    min-height: min-content;
+
+}
+
 
 .L {
-    position: relative;
-    left: 500px;
-    top: 550px;
-    font-size: 50px;
-    font-family: serif;
+    font-size: 30px;
     text-shadow: 1px 1px 1px #000;
     background-color: #6495ed;
-    border-radius: 150px;
-    width: 160px;
+    border-radius: 120px;
+    padding: 10px;
     color: white;
+    height: fit-content;
+    min-width: min-content;
+    min-height: min-content;
 }
 
 .R {
-    position: relative;
-    left: 100px;
-    top: 550px;
-    font-size: 50px;
-    font-family: serif;
+    font-size: 30px;
     text-shadow: 1px 1px 1px #000;
     background-color: #6495ed;
-    border-radius: 150px;
-    width: 160px;
+    border-radius: 120px;
+    padding: 10px;
     color: white;
+    height: fit-content;
+    min-width: min-content;
+    min-height: min-content;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -79,63 +141,86 @@ body {
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-/*styling of welcome box with page name*/
 
-.bckgndOfBox {
-    position: absolute;
-    left: 200px;
-    top: 250px;
-    /* background-image: url("Shingeki-no-Kyojin-4.jpg");*/
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    color: #fff;
-    opacity: .5;
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media all and (max-width: 600px) {
+
+    .content {
+        width: 100%;
+    }
+
+    .box
+    {
+        width: 80%;
+        margin-top: 30%;
+    }
+    .buttonshome
+    {
+        width: 80%;
+    }
+    .L
+    {
+        font-size: 20px;
+    }
+
+    .R{
+        font-size: 20px;
+    }
+
+    
+
 }
 
-.bg-text {
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
-    position: absolute;
-    left: 450px;
-    top: 350px;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 40%;
-    padding: 20px;
-    text-align: center;
-    font-family: serif;
-    border-radius: 40px;
+@media all and (min-width: 601px) and (max-width: 768px) {
+    .content {
+        width: 100%;
+        
+    }
+
+    .box
+    {
+        width: 80%;
+    }
+    .buttonshome
+    {
+        width: 80%;
+    }
+    .L
+    {
+        font-size: 20px;
+    }
+
+    .R{
+        font-size: 20px;
+    }
+
 }
 
+@media all and (min-width: 769px) and (max-width: 922px) {
 
+    .content {
+        width: 100%;
+    }
 
-.L {
-    position: relative;
-    left: 500px;
-    top: 600px;
-    font-size: 50px;
-    font-family: serif;
-    text-shadow: 1px 1px 1px #000;
-    background-color: #6495ed;
-    border-radius: 150px;
-    width: 160px;
-    padding: 10px 10px;
-}
+    .box
+    {
+        width: 80%;
+        margin-top: 30%;
+    }
+    .buttonshome
+    {
+        width: 80%;
+    }
+    .L
+    {
+        font-size: 20px;
+    }
 
-.R {
-    position: relative;
-    left: 50px;
-    top: 600px;
-    font-size: 50px;
-    font-family: serif;
-    text-shadow: 1px 1px 1px #000;
-    background-color: #6495ed;
-    border-radius: 150px;
-    width: 160px;
-    padding: 10px 10px;
+    .R{
+        font-size: 20px;
+    }
+
 }
