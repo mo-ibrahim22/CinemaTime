@@ -15,3 +15,14 @@ Admin Page: Exclusive access for administrators to manage user-related data. Not
 Customizable Backgrounds: Administrators have the ability to customize web page backgrounds, enhancing the visual experience for users.
 
 ![Screenshot 2024-03-10 030827](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/322cfebc-851b-46ac-a997-4b394c5b74b8)
+![Screenshot 2024-03-10 030842](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/b4eea0b7-4c4d-450f-af8d-f99ea64a61f9)
+![Screenshot 2024-03-10 030857](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/c41eb309-e35f-4236-8f0b-b3916979ca7d)
+![Screenshot 2024-03-10 031703](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/1313b93f-3c51-4dc6-9e1f-e7caec9c32e5)
+![Screenshot 2024-03-10 030716](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/13528f97-a20c-4b41-aa03-62b5192bf91f)
+![Screenshot 2024-03-10 03080
+![Screenshot 2024-03-10 031144](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/6845299e-2d35-44f9-a0e9-26a01e4c67e7)
+9](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/4996b4d9-b670-477a-8b30-4f3f57ce7284)
+![Screenshot 2024-03-10 030731](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/abea5884-2dd6-4d83-b52b-4fe335a516a1)
+![Screenshot 2024-03-10 031423](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/0dd79f53-7290-49b8-ac53-06e1791fcb73)
+![Screenshot 2024-03-10 031609](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/34a3d28a-2b60-4a28-804e-6e9fde51cc34)
+
