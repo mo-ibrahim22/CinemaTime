@@ -13,3 +13,5 @@ Personalized Recommendations: Discover new content tailored to your viewing hist
 Admin Page: Exclusive access for administrators to manage user-related data. Note: Administrators should register with "cinematime@gmail.com" and log in to the admin page.
 
 Customizable Backgrounds: Administrators have the ability to customize web page backgrounds, enhancing the visual experience for users.
+
+![Screenshot 2024-03-10 030827](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/322cfebc-851b-46ac-a997-4b394c5b74b8)
