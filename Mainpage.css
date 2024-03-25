@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*styling background color  */
+
+
+.background {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("wp4027868-venom-4k-wallpapers.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: min-content;
+    min-height: min-content;
+
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------styling of content-------------------*/
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    min-width: min-content;
+    min-height: min-content;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------*/
+/*styling of welcome box with page name*/
+
+
+
+.box {
+
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #f1f1f1;
+    width: 80%;
+    height: 60%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+    height: fit-content;
+    min-width: min-content;
+    min-height: min-content;
+    margin-bottom: 5%;
+
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*styling buttons of register and login  */
+
+.buttonshome
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    min-width: min-content;
+    min-height: min-content;
+
+}
+
+
+.L {
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #000;
+    background-color: #6495ed;
+    border-radius: 120px;
+    padding: 10px;
+    color: white;
+    height: fit-content;
+    min-width: min-content;
+    min-height: min-content;
+}
+
+.R {
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #000;
+    background-color: #6495ed;
+    border-radius: 120px;
+    padding: 10px;
+    color: white;
+    height: fit-content;
+    min-width: min-content;
+    min-height: min-content;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*the select of the button back_ground color */
+
+.L:hover {
+    background-color: #A66CFF;
+    color: black;
+}
+
+.R:hover {
+    background-color: #A66CFF;
+    color: black;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*when user click on the box it will shadow*/
+.L:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
+    color: white;
+}
+
+.R:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
+    color: white;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+@media all and (max-width: 600px) {
+
+    .content {
+        width: 100%;
+    }
+
+    .box
+    {
+        width: 80%;
+        margin-top: 30%;
+    }
+    .buttonshome
+    {
+        width: 80%;
+    }
+    .L
+    {
+        font-size: 20px;
+    }
+
+    .R{
+        font-size: 20px;
+    }
+
+    
+
+}
+
+@media all and (min-width: 601px) and (max-width: 768px) {
+    .content {
+        width: 100%;
+        
+    }
+
+    .box
+    {
+        width: 80%;
+    }
+    .buttonshome
+    {
+        width: 80%;
+    }
+    .L
+    {
+        font-size: 20px;
+    }
+
+    .R{
+        font-size: 20px;
+    }
+
+}
+
+@media all and (min-width: 769px) and (max-width: 922px) {
+
+    .content {
+        width: 100%;
+    }
+
+    .box
+    {
+        width: 80%;
+        margin-top: 30%;
+    }
+    .buttonshome
+    {
+        width: 80%;
+    }
+    .L
+    {
+        font-size: 20px;
+    }
+
+    .R{
+        font-size: 20px;
+    }
+
+}
