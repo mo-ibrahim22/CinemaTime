@@ -118,7 +118,7 @@ body {
 
 .photo {
     width: 100%;
-    height: 280px;
+    height: 270px;
     border-radius: 10px;
     cursor: pointer;
     transition: transform 1s;
@@ -139,6 +139,13 @@ body {
     font-weight: bold;
 }
 
+.rate {
+    color: #8644a0;
+}
+
+.rate p {
+    color: #440f58;
+}
 
 
 
@@ -156,8 +163,17 @@ body {
     margin-top: 5px;
 }
 
+.trailer a {
+    text-decoration: none;
+    color: #440f58;
+}
+
 .trailer:hover {
     background-color: #b891f2;
+}
+
+.trailer a:active {
+    color: rgba(238, 237, 235, 0.8);
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -188,12 +204,8 @@ body {
         top: 15px;
     }
 
-    .items {
-        flex-direction: row;
-    }
-
     .item {
-        width: 40%;
+        width: 35%;
     }
 }
 
@@ -209,12 +221,8 @@ body {
 
     }
 
-    .items {
-        flex-direction: row;
-    }
-
     .item {
-        width: 30%;
+        width: 25%;
     }
 }
 
@@ -229,11 +237,7 @@ body {
 
     }
 
-    .items {
-        flex-direction: row;
-    }
-
     .item {
-        width: 25%;
+        width: 20%;
     }
 }
