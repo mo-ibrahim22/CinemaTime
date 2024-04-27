@@ -36,5 +36,7 @@ Cinema Time is an engaging front-end web application designed to provide users w
   - Access exclusive features for administrators by logging in with the email "cinematime@gmail.com".
   - Manage user-related data and customize web page backgrounds.
 
+## Demo
+
 https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/cc2d8a80-2feb-4159-8a59-73874da869f2
 
