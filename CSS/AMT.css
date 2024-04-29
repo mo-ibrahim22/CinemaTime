@@ -1,9 +1,10 @@
-/*--styling bar --*/
+/*stylying bar section*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: cursive;
+    font-size: 20px;
 
 }
 
@@ -37,6 +38,8 @@
     background-color: #C8B6E2;
     color: black;
 }
+
+
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -76,80 +79,114 @@
     color: rgb(77, 76, 125);
     background-color: rgba(22, 26, 48, 1);
 }
+
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*styling background color  */
 
+body {
 
-.background {
-    margin-top: 70px;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation: change 15s infinite ease-in-out;
-    min-width: min-content;
-    min-height: min-content;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
 
 }
 
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*styling box of rate*/
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+
+}
+
+.item {
+    padding: 10px;
+    background-color: rgba(238, 237, 235, 0.8);
+    width: 14%;
+    border-radius: 20px;
+    margin: 20px;
+    min-width: min-content;
+    min-height: min-content;
+}
+
+.photo {
+    height: 270px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.photo:active {
+    box-shadow: 0 0 10px 5px #9c81b1;
+    transform: scale(1.5, 1.5);
+}
+
+
+.Rating {
+    background: #f1f1f1;
+    text-align: left;
+    font-size: large;
+    font-family: cursive;
+    width: 100%;
+    font-weight: bold;
+}
+
+.rate {
+    color: #8644a0;
+}
+
+.rate p {
+    color: #440f58;
+}
 
 
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*--styling trailer boxes--*/
 
-/*styling of welcome box with page name*/
-
-
-
-.box {
-
-    background-color: rgba(0, 0, 0, 0.4);
+.trailer {
     font-size: 20px;
-    color: white;
-    font-weight: bold;
-    border: 2px solid #f1f1f1;
-    width: 40%;
-    height: 30%;
-    padding: 20px;
-    margin-top: 15%;
-    margin-left: 5%;
+    text-shadow: 1px 1px 1px #9c81b1;
+    background-color: white;
     text-align: center;
-    border-radius: 50px;
-    height: fit-content;
-    min-width: min-content;
-    min-height: min-content;
-
+    color: #440f58;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
 }
 
-/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-@keyframes change {
-    0% {
-        background-image: url(wp4027868-venom-4k-wallpapers.jpg);
-    }
-
-    20% {
-        background-image: url(doctorstrange.jpg);
-    }
-
-    40% {
-        background-image: url(wallpapersden.com_cool-thor-love-and-thunder.jpg);
-    }
-
-    60% {
-        background-image: url(wp2751429-wallpapers-movies-hd.jpg);
-    }
-
-    80% {
-        background-image: url(37988.jpg);
-    }
-
-    100% {
-        background-image: url(wp9049883-films-4k-wallpapers.jpg);
-    }
+.trailer a {
+    text-decoration: none;
+    color: #440f58;
 }
+
+.trailer:hover {
+    background-color: #b891f2;
+}
+
+.trailer a:active {
+    color: rgba(238, 237, 235, 0.8);
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*when user click on the box it will shadow*/
+.trailer:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+        inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+
+
+
 
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -166,14 +203,10 @@
         font-size: 15px;
         top: 15px;
     }
-    .box
-    {
-        width: 80%;
-        margin-top: 40%;
-        margin-left: 10%;
+
+    .item {
+        width: 35%;
     }
-
-
 }
 
 @media all and (min-width: 601px) and (max-width: 768px) {
@@ -187,13 +220,10 @@
         font-size: 15px;
 
     }
-    .box
-    {
-        width: 80%;
-        margin-top: 40%;
-        margin-left: 10%;
-    }
 
+    .item {
+        width: 25%;
+    }
 }
 
 @media all and (min-width: 769px) and (max-width: 922px) {
@@ -206,12 +236,8 @@
         font-size: 15px;
 
     }
-    .box
-    {
-        width: 80%;
-        margin-top: 40%;
-        margin-left: 10%;
+
+    .item {
+        width: 20%;
     }
-
-
 }

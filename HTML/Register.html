@@ -2,76 +2,10 @@
 <html lang="en">
 
 <head>
-	<link rel="stylesheet" href="Register.css">
+	<link rel="stylesheet" href="../CSS/Register.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<title>Register</title>
-
-	<script defer type="text/javascript">
-
-		function validateForm() {
-			var x = document.forms["Resform"]["email"].value;
-			var y = document.forms["Resform"]["password"].value;
-			var z = document.forms["Resform"]["password2"].value;
-			var w = document.forms["Resform"]["phonenumber"].value;
-			if (x == "" || x == null) {
-				alert("email must be filled out");
-				return false;
-			}
-			if (y == "" || y == null) {
-				alert("Password must be filled out");
-				return false;
-			}
-			if (x.indexOf("@") == -1 || x.indexOf(".") == -1) {
-				alert("Please Enter valid email, info@gmail.com");
-				x = " ";
-				return false;
-			}
-			if (y != z) {
-				alert("The Password doesn't match");
-				return false;
-			}
-			if (w.indexOf("0") == -1 || w.indexOf("1") == -1) {
-				alert("There's something wrong, please check your number again.");
-				w = " ";
-				return false;
-			}
-
-		}
-
-
-
-		var users = [];
-		if (localStorage.getItem("x") == null) {
-			users = [];
-		}
-		else {
-			users = JSON.parse(localStorage.getItem("x"));
-		}
-
-		function register() {
-			var email = document.getElementById("email").value;
-			var password = document.getElementById("password").value;
-			var password2 = document.getElementById("password2").value;
-			var phonenumber = document.getElementById("phonenumber").value;
-
-			if (password == password2) {
-				if (phonenumber.indexOf("0") != -1 && phonenumber.indexOf("1") != -1) {
-					//set user input into JSON
-					var user = { email: email, password: password };
-					//push new user to array
-					users.push(user);
-					//save to localStorage
-					localStorage.setItem("x", JSON.stringify(users));
-
-				}
-			}
-
-
-		}
-
-	</script>
-
 </head>
 
 <body>
@@ -80,8 +14,7 @@
 		<div class="register">
 			<div class="title">Registration</div>
 			<div class="content">
-				<form action="Homepage.html" name="Resform" onsubmit="return validateForm()" on method="post"
-					id="Resform" required>
+				<form name="Resform" onsubmit="return validateForm()" id="Resform" required>
 					<div class="user-details">
 						<div class="input-box">
 							<span class="details">Full Name</span>
@@ -131,13 +64,16 @@
 						</div>
 					</div>
 					<div class="button">
-						<input type="submit" value="Register" onclick="register()">
+						<input type="submit" value="Register">
 					</div>
-					<p>Already have an account? <a href="login.html">Login</a>.</p>
+					<p>Already have an account? <a href="../index.html">Login</a>.</p>
 				</form>
 			</div>
 		</div>
 	</div>
+
+	<script src="../JS/register.js"></script>
+
 </body>
 
 </html>
