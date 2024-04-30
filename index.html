@@ -2,58 +2,38 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="CSS/login.css">
+  <link rel="stylesheet" href="CSS/Mainpage.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8" />
-  <title>Login</title>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title> Main Page</title>
 </head>
 
 <body>
+
   <div class="background">
-    <div class="all">
-
-      <div class="wholeForm">
-        <div class="login">
-          <h1>Login</h1>
-          <form name="loginform" onsubmit="return validateForm()" id="loginform" required>
-
-            <div class="form-control">
-              <input type="text" name="email" id="email" required>
-
-              <label>
-                <span style="transition-delay: 0ms">E</span>
-                <span style="transition-delay: 50ms">m</span>
-                <span style="transition-delay: 100ms">a</span>
-                <span style="transition-delay: 150ms">i</span>
-                <span style="transition-delay: 200ms">l</span>
-              </label>
-            </div>
-
-            <div class="form-control">
-              <input type="password" name="password" id="password" required>
-
-              <label>
-                <span style="transition-delay: 0ms">P</span>
-                <span style="transition-delay: 50ms">a</span>
-                <span style="transition-delay: 100ms">s</span>
-                <span style="transition-delay: 150ms">s</span>
-                <span style="transition-delay: 200ms">w</span>
-                <span style="transition-delay: 250ms">o</span>
-                <span style="transition-delay: 300ms">r</span>
-                <span style="transition-delay: 350ms">d</span>
-              </label>
-            </div>
-
-            <button class="btn" type="submit"> login </button>
-
-            <p class="dnt">Don't have an account? <a href="HTML/Register.html">Register</a> </p>
-          </form>
-        </div>
+    <!-- -- Div for welcome box styling of page name -- -->
+    <div class="content">
+      <div class="box">
+        <h1>Welcome To "Cinema Time".</h1>
+        <br>
+        <h2>
+          <p>Where You Will Find Your Favourite Movies</p>
+        </h2>
+      </div>
+      <!-- div buttons of login pages-->
+      <div class="buttonshome">
+        <a class="L" href="HTML/login.html" type="button"> <i class="fa fa-user-circle"></i>
+          Login</a>
+        <a class="R" href="HTML/Register.html" type="button"><i class="fa fa-user-circle"></i> Register</a>
       </div>
     </div>
   </div>
-  <script src="JS/login.js"></script>
+
+
+
+
+
+
 </body>
 
 </html>

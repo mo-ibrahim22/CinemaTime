@@ -30,9 +30,9 @@ function login() {
         for (let i = 0; i < users.length; i++) {
             if (users[i].email === user.email && users[i].password === user.password) {
                 if (users[i].email === "cinematime@gmail.com") {
-                    document.getElementById('loginform').action = "HTML/admin.html";
+                    document.getElementById('loginform').action = "admin.html";
                 } else {
-                    document.getElementById('loginform').action = "HTML/Homepage.html";
+                    document.getElementById('loginform').action = "Homepage.html";
                 }
                 return;
             }
