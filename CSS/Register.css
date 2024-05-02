@@ -170,7 +170,7 @@ form .button input:hover {
     background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
 
-.log{
+.log {
     text-decoration: none;
     color: #9b59b6;
     font-size: 20px;
@@ -183,6 +183,8 @@ form .button input:hover {
 @media all and (max-width: 600px) {
     .register {
         width: 80%;
+        overflow-y: auto;
+
     }
 
 }
@@ -190,6 +192,8 @@ form .button input:hover {
 @media all and (min-width: 601px) and (max-width: 768px) {
     .register {
         width: 60%;
+        overflow-y: auto;
+
     }
 
 }
@@ -198,5 +202,7 @@ form .button input:hover {
 @media all and (min-width: 769px) and (max-width: 922px) {
     .register {
         width: 60%;
+        overflow-y: auto;
+
     }
 }
