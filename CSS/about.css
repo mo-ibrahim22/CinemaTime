@@ -7,8 +7,9 @@
 }
 
 /* Style background-color */
-body {
+.background {
     background-image: url("../Background/doctorstrange.jpg");
+    margin-top: 5%;
     /* Full height */
     height: 100vh;
     width: 100%;
@@ -17,8 +18,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+
 }
 
+.icon {
+    display: none;
+}
+
+.brand {
+    color: white;
+    font-size: 24px;
+    padding: 25px 20px;
+    display: none;
+}
 
 .bar {
     background-color: #2B4865;
@@ -110,7 +122,7 @@ body {
     font-size: 20px;
     color: white;
     font-weight: bold;
-    width: 40%;
+    width: 50%;
     height: 30%;
     padding: 20px;
     text-align: center;
@@ -128,15 +140,42 @@ body {
 
 @media all and (max-width: 600px) {
 
-    .tab {
-        font-size: 15px;
-        padding: 25px 10px;
+    .bar {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .Lo {
-        font-size: 15px;
-        top: 15px;
+    .tab {
+        position: relative;
+        display: none;
     }
+
+
+    .brand {
+        display: block;
+        position: relative;
+        left: -95px;
+    }
+
+    .icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .icon i {
+        color: white;
+        font-size: 30px;
+        padding: 25px 20px;
+
+    }
+
+    .icon:hover {
+        background-color: rgba(22, 26, 48, .5);
+        border-radius: 100%;
+    }
+
 
     .header {
         width: 80%;
