@@ -45,10 +45,10 @@ Cinema Time is an engaging front-end web application designed to provide users w
 ![5-movies](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/43727505-f32e-472a-b200-5de5481b267e)
 ![6-tv](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/f41d98a1-8c8a-4c26-8e48-b35b13c3e436)
 ![7-anime](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/0770b0d5-51e6-4da2-96f3-bf3f399a2ad3)
-![9-about](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/a6c4fb13-0e19-4505-9e33-ab40206c785e)
+![9-about](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/76e05a40-ecf4-4c2a-b7f2-8bbb2af93b19)
 ![10-admin](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/d641ba44-44b3-4824-a45f-394e65077230)
 ![11-tvafter](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/ced22519-1067-4062-8c3c-dd0e063bc3bd)
-![12-homephone](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/a93fd0b1-35cf-490f-a92e-144f6859ce03)
-![13-moviephone](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/f6c39099-144e-44c8-8e6e-7971466c16f9)
+![12-homephone](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/0281f803-a791-4bdb-a2d5-94f0ee1bfaa2)
+![13-moviephone](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/3023e60f-7069-4d1a-9f01-ff0d28cbd988)
 ![15-tvipad](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/84c57869-b6d7-4344-ad91-169e444ee074)
 
