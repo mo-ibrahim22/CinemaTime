@@ -39,7 +39,7 @@ Cinema Time is an engaging front-end web application designed to provide users w
 ## Demo
 
 ![3-mainpage](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/2a004d40-9608-4866-bb6d-6bb82a68e2ae)
-![1-login](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/fbcb5152-68aa-4028-a445-0be709f00119)
+![1-login](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/5195a6e6-a395-4f05-bfc6-5bbee35f54ac)
 ![2-register](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/456534ef-7ed6-46ac-bb76-c5fd9c01f06e)
 ![4-homepage](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/fe8e0300-cc9e-46d4-92d1-31ccfb3a3978)
 ![5-movies](https://github.com/mo-ibrahim22/CinemaTime/assets/125498637/43727505-f32e-472a-b200-5de5481b267e)
